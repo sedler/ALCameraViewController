@@ -142,7 +142,7 @@ public class CameraViewController: UIViewController {
     let flashButton : UIButton = {
         let button = UIButton(frame: CGRect(x: 0, y: 0, width: 44, height: 44))
         button.translatesAutoresizingMaskIntoConstraints = false
-        button.setImage(UIImage(named: "flashAutoIcon",
+        button.setImage(UIImage(named: "flashOffIcon",
                                 in: CameraGlobals.shared.bundle,
                                 compatibleWith: nil),
                         for: .normal)
