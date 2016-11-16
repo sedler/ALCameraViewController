@@ -31,7 +31,7 @@ public class CameraView: UIView {
         if let device = device , device.hasFlash {
             do {
                 try device.lockForConfiguration()
-                device.flashMode = .auto
+                device.flashMode = .off
                 device.unlockForConfiguration()
             } catch _ {}
         }
